@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  background: #5d4ab3;
+  color: rgba(255,255,255,.2);
+  font: 200% Montserrat;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.calculator {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 375px;
+}
+
+.output {
+  box-sizing: border-box;
+  color: #f3aa3c;
+  font-size: 36pt;
+  height: 25%;
+  padding: 10% 5% 5%;
+  text-align: right;
+}
+
+.button {
+  box-sizing: border-box;
+  cursor: pointer;
+  float: left;
+  height: 15%;
+  padding: 5%;
+  transition: .5s;
+  width: 25%;
+  background-color: #5d4ab3;
+}
+.button:hover {
+  background: #444f59;
+  color: #fff;
+}
+.double {
+  width: 50%;
+}
+.accent:hover {
+  color: #f3aa3c;
+}
+.submit:hover {
+  background: #f3aa3c;
+}
